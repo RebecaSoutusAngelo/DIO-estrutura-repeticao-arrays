@@ -13,10 +13,10 @@ public class ArrayMultdimensional {
                 M[i][j] = random.nextInt(bound: 9);
             }
         }
-        System.out.ptinln( "Matriz: ");
+        System.out.println( "Matriz: ");
         for (int[] linha : M ) {
             for (int coluna : linha ) {
-                System.out.ptinln(coluna + " " );
+                System.out.println(coluna + " " );
             }
         }
     }
